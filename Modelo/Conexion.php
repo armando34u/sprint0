@@ -11,7 +11,7 @@ public static function conexcion(){
     }catch(Exception $e) {
         die('Error' .$e->getMessage());
         echo "Linea del error".$e->getLIne();
-
+        echo "";
         }
         return $pdo_conexion;
     }
